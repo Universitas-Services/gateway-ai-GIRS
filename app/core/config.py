@@ -20,14 +20,14 @@ class Settings(BaseSettings):
     )
 
     # ── Google Cloud ────────────────────────────────────────────
-    project_id: str = "agente-manual-contrataciones"
-    location: str = "us-east1"
-    reasoning_engine_id: str = "5015972045914112000"  # full resource name or numeric ID
+    project_id: str = "consultoria-girs"
+    location: str = "us-central1"
+    reasoning_engine_id: str = "4399890941859594240"
 
-    # ── Telegram ────────────────────────────────────────────────
+    # ── Telegram (opcional) ─────────────────────────────────────
     telegram_bot_token: str = ""
 
-    # ── WhatsApp (Meta Cloud API) ───────────────────────────────
+    # ── WhatsApp Meta Cloud API (opcional) ──────────────────────
     whatsapp_access_token: str = ""
     whatsapp_verify_token: str = ""
     whatsapp_phone_number_id: str = ""
